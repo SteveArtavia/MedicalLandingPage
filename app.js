@@ -47,13 +47,13 @@ function Hero(){
     return(
         <div id='hero' class='container my-5'> 
             <div class='row'>
-                <div class='col'>
+                <div class='col-12 col-lg-6'>
                     <small>MEDICAL</small>
                     <h1>Healthcare Solutions</h1>
                     <p class='mt-4'>Explore our healthcare solutions to enhance your well-being and quality of life. At MedPlus, we are dedicated to your health, providing excellent medical services and personalized care.</p>
                     <button class='btn btn-primary mt-4'>Learn More</button>
                 </div>
-                <div class='undraw col'>
+                <div class='undraw col-12 col-lg-6'>
                     <img src='/svg/hero.svg'/>
                 </div>
             </div>
@@ -88,10 +88,10 @@ function Speciality(){
     return(
         <div id='speciality' class='container'>
             <div class='row'>
-                <div class='col'>
+                <div class='col-12 col-lg-6'>
                     <img src='/svg/speciality.svg' />
                 </div>
-                <div class='col'>
+                <div class='col-12 col-lg-6'>
                     <small>FEATURES</small>
                     <h3>Our Speciality</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis alias enim optio nisi molestiae sit, atque quasi laudantium eos rem ab dolorem quod, pariatur eligendi? Numquam, repellat labore! Labore, dolores?</p>
