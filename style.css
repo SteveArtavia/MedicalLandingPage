@@ -2,38 +2,21 @@
     --primary:rgb(64, 153, 255);
     --secondary:rgb(58, 209, 230);
 }
-body{
-    margin: 20px;
+html{
+    overflow-x: none;
 }
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
+button.navbar-toggler{
+    border: none;
 }
 #logo{
     color: var(--primary);
     font-weight: bold;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-nav a{
-    color: black;
-    text-decoration: none !important;
-}
-nav a:hover{
-    color: var(--primary);
-    transition: .1s ease;
 }
 #hero{
     margin-bottom: 200px !important;
 }
 #hero small{
     color: var(--secondary);
-    font-weight: bold;
 }
 #hero .row{
     align-items: center;
@@ -50,6 +33,14 @@ button{
     border-radius: 30px;
     border: none;
     box-shadow: 0px 0px 10px #efefef;
+    background-color: var(--primary);
+    color: white;
+}
+.card button{
+    background-color: white;
+    color: var(--primary);
+    border: none;
+    font-weight: bold;
 }
 #option-cards .row{
     justify-content: center;
@@ -60,11 +51,25 @@ button{
 }
 #speciality{
     margin-bottom: 200px;
+    align-items: center;
+}
+#speciality small{
+    color: var(--secondary);
 }
 #services{
-    color: var(--primary);
     padding-bottom: 100px;
 }
 #services i{
     font-size: 3em;
+}
+#services .col-6:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer ul li a:hover{
+    color: var(--primary);
 }
