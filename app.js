@@ -186,7 +186,7 @@ const Footer = () => {
         <footer className="footer text-center">
     <div className="container">
         <div className="row justify-content-center">
-            <div className="col-md-4">
+            <div className="col-md-4 my-3">
                 <h5>Contact Us</h5>
                 <ul className="list-unstyled mb-0">
                     <li><i className="fas fa-phone-alt"></i> Phone: +123456789</li>
@@ -194,7 +194,7 @@ const Footer = () => {
                     <li><i className="fas fa-map-marker-alt"></i> Address: Clinic Address</li>
                 </ul>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 my-3">
                 <h5>Useful Links</h5>
                 <ul className="list-unstyled mb-0">
                     <li><a href="#">Home</a></li>
@@ -203,7 +203,7 @@ const Footer = () => {
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 my-3">
                 <h5>Follow Us</h5>
                 <ul className="list-inline mb-0">
                     <li className="list-inline-item"><a href="#"><i className="fab fa-facebook"></i></a></li>
